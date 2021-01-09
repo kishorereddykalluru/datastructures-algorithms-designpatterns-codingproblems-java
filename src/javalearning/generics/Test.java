@@ -1,4 +1,4 @@
-package generics;
+package javalearning.generics;
 
 public class Test<T> {
 
