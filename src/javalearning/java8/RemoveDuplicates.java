@@ -1,4 +1,4 @@
-package javalearning.generics.java8;
+package javalearning.java8;
 
 import java.util.List;
 import java.util.stream.Collectors;
