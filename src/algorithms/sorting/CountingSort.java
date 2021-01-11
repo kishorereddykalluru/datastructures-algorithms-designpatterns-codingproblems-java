@@ -3,13 +3,13 @@ package algorithms.sorting;
 public class CountingSort {
     public static void main(String[] args) {
         int[] intArray = {2,6,10,2,5,4,7,8,9,8};
-        countintArray(intArray, 1, 10);
+        countingArray(intArray, 1, 10);
         for(int num: intArray){
             System.out.println(num);
         }
     }
 
-    public static void countintArray(int[] input, int min, int max){
+    public static void countingArray(int[] input, int min, int max){
 
         int[] countArray = new int[(max - min)+1];
 
