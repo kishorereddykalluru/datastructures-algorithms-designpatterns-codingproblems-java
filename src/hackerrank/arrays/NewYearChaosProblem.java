@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class NewYearChaosProblem {
 
+    /**
+     * returns minimum bribes each person took in a queue
+     * @param q
+     */
     static void minimumBribes(int[] q) {
         int swap = 0;
         for(int i = q.length-1; i >= 0; i--){

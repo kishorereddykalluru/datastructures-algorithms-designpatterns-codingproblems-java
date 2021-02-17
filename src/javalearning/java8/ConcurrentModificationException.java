@@ -1,7 +1,6 @@
 package javalearning.java8;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class ConcurrentModificationException {
@@ -16,13 +15,10 @@ public class ConcurrentModificationException {
         list.add(4);
         list.add(5);
 
-        Iterator<Integer> it = list.iterator();
-
-        while(it.hasNext()){
-            Integer value = it.next();
+        for (Integer value : list) {
             System.out.println("value = " + value);
 
-            if(value.equals(3))
+            if (value.equals(3))
                 list.remove(value);
         }
     }
