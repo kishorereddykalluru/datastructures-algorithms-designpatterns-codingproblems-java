@@ -1,4 +1,4 @@
-package javalearning.annotations;
+package javaprogramming.annotations;
 
 import java.lang.reflect.Method;
 

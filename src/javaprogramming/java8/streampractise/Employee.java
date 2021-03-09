@@ -1,4 +1,4 @@
-package javalearning.java8.streampractise;
+package javaprogramming.java8.streampractise;
 
 public class Employee {
 

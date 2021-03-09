@@ -1,4 +1,4 @@
-package javalearning.stringpractice;
+package javaprogramming.stringpractice;
 
 public class StringDemo {
     public static void main(String[] args) {

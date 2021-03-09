@@ -1,4 +1,4 @@
-package javalearning.staticexample;
+package javaprogramming.staticexample;
 
 public class StaticDemo {
 

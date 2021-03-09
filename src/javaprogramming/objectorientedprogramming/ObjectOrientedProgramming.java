@@ -1,4 +1,4 @@
-package javalearning.objectorientedprogramming;
+package javaprogramming.objectorientedprogramming;
 
 public class ObjectOrientedProgramming {
 

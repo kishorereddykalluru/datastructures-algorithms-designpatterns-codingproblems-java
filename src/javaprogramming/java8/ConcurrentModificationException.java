@@ -1,4 +1,4 @@
-package javalearning.java8;
+package javaprogramming.java8;
 
 import java.util.ArrayList;
 import java.util.List;

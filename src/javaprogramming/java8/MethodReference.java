@@ -1,6 +1,4 @@
-package javalearning.java8;
-
-import java.lang.reflect.Method;
+package javaprogramming.java8;
 
 public class MethodReference {
     public static void saySomething(){

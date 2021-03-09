@@ -1,4 +1,4 @@
-package javalearning.java8;
+package javaprogramming.java8;
 
 import java.util.List;
 import java.util.function.Predicate;

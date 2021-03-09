@@ -1,4 +1,4 @@
-package javalearning.generics;
+package javaprogramming.generics;
 
 public class GenMethod {
 

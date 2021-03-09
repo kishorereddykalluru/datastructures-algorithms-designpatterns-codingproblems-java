@@ -1,4 +1,4 @@
-package javalearning.annotations;
+package javaprogramming.annotations;
 
 public class Hello {
     @CustomAnnotation

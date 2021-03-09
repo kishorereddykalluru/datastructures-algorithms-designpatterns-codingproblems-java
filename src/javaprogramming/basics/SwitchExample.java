@@ -1,4 +1,4 @@
-package javalearning.basics;
+package javaprogramming.basics;
 
 public class SwitchExample {
 

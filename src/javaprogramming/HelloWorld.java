@@ -1,4 +1,4 @@
-package javalearning;
+package javaprogramming;
 
 public class HelloWorld {
 
