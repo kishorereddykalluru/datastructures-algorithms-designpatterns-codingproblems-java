@@ -2,6 +2,7 @@ package javaprogramming.java8.streampractise;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class FindMaxInAList {
 
@@ -16,5 +17,18 @@ public class FindMaxInAList {
 
         int max3 = list.stream().mapToInt(i -> i).max().getAsInt();
         System.out.println("max3 = " + max3);
+
+        Employee e1 = new Employee(1, "ABC", "Accounting");
+        Employee e2 = new Employee(2, "XYZ", "HR");
+        Employee e3 = new Employee(3, "DEF", "Finance");
+        Employee e4 = new Employee(4, "MNO", "HR");
+        Employee e5 = new Employee(5, "PQR", "Developer");
+        Employee e6 = new Employee(2, "PQR", "Developer");
+
+        List<Employee> e11 = List.of(e1, e2, e3, e4, e5, e6);
+
+        List<Employee> collect = e11.stream().distinct().collect(Collectors.toList());
+
+        collect.forEach(System.out::println);
     }
 }
