@@ -7,10 +7,10 @@ public class BalancedStringCodility {
     public static void main(String[] args) {
 
         System.out.println(getShortestFragment("AcZCbaBz"));
-        System.out.println(getShortestFragment("AcZCbaBz"));
-        System.out.println(getShortestFragment("AcZCbaBz"));
-        System.out.println(getShortestFragment("AcZCbaBz"));
-        System.out.println(getShortestFragment("AcZCbaBz"));
+        //System.out.println(getShortestFragment("azABaabza"));
+        //System.out.println(getShortestFragment("abcdefghijklmnopqrstuvwxyz"));
+        //System.out.println(getShortestFragment("AcZCbaBz"));
+        //System.out.println(getShortestFragment("AcZCbaBz"));
 
     }
 
