@@ -6,15 +6,15 @@ import java.util.Set;
 public class BalancedStringCodility {
     public static void main(String[] args) {
 
-        System.out.println(getShortestFragment("AcZCbaBz"));
+        //System.out.println(getShortestFragment("AcZCbaBz"));
         //System.out.println(getShortestFragment("azABaabza"));
         //System.out.println(getShortestFragment("abcdefghijklmnopqrstuvwxyz"));
-        //System.out.println(getShortestFragment("AcZCbaBz"));
-        //System.out.println(getShortestFragment("AcZCbaBz"));
+        
+
 
     }
 
-    static String getShortestFragment(String str){
+    static int getShortestFragment(String str){
         for(int k=1;k<=str.length();k++){
             for(int i=0;i<str.length()-k+1;i++){
                 Set<Character> lowerSet = new HashSet<>();
@@ -28,13 +28,13 @@ public class BalancedStringCodility {
                         upperSet.add(ch);
                 }
                 if(containsAllElements(lowerSet, upperSet) && containsAllElements(upperSet, lowerSet)){
-                    String value =String.valueOf(k);
-                    return value;
+                    //String value =String.valueOf(k);
+                    return k;
                 }
             }
         }
-        int minusOne =-1;
-        return String.valueOf(minusOne);
+        //int minusOne =-1;
+        return -1;
     }
 
     static boolean containsAllElements(Set<Character> first, Set<Character> second){
