@@ -1,4 +1,4 @@
-package javaprogramming.concurrency;
+package javaprogramming.concurrency.basics;
 
 import java.util.Random;
 

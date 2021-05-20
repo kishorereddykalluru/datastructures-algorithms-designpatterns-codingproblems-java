@@ -1,4 +1,4 @@
-package javaprogramming.concurrency;
+package javaprogramming.concurrency.basics;
 
 public class MyRunnable implements Runnable{
 

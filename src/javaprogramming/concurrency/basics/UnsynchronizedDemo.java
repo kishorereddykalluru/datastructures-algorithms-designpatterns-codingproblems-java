@@ -1,6 +1,4 @@
-package javaprogramming.concurrency;
-
-import java.util.concurrent.atomic.AtomicInteger;
+package javaprogramming.concurrency.basics;
 
 public class UnsynchronizedDemo implements Runnable{
 

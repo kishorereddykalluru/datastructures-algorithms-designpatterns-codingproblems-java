@@ -1,4 +1,4 @@
-package javaprogramming.concurrency;
+package javaprogramming.concurrency.basics;
 
 /**
  * join() makes sure that current thread will wait until all its child thread finished their jobs
