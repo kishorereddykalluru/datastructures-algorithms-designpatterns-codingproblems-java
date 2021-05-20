@@ -1,4 +1,4 @@
-package interviewquestions;
+package codingchallanges.interviewquestions;
 
 import java.util.Map;
 import java.util.Stack;

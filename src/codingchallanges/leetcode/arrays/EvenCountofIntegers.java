@@ -1,4 +1,4 @@
-package leetcode.arrays;
+package codingchallanges.leetcode.arrays;
 
 public class EvenCountofIntegers {
 
