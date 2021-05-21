@@ -1,4 +1,4 @@
-package javaprogramming.stringpractice;
+package dummy;
 
 public class TableDef {
 

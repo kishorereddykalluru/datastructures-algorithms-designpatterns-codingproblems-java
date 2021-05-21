@@ -1,6 +1,7 @@
 package codingchallanges.interviewquestions;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -15,7 +16,8 @@ public class SumOfSuccedingElements {
 
         int[] arr = {24, 2, 10, 4, 3, 2, 1};
 
-         indexOfSumOfSuccedingElements(arr);
+        int[] ints = indexOfSumOfSuccedingElements(arr);
+        Arrays.stream(ints).forEach(System.out::println);
 
     }
 
@@ -38,7 +40,7 @@ public class SumOfSuccedingElements {
                 return  new int[]{-1};
             }
         }
-        return  new int[]{-1};
+        return  new int[integers.size()];
     }
 
 }

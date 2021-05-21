@@ -1,4 +1,4 @@
-package codingchallanges.interviewquestions;
+package dummy;
 
 public class ColumnDef {
 

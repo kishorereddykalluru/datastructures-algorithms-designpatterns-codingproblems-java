@@ -11,12 +11,8 @@ public class EpamElementWithHighesNumberofOccurance {
 
     public static void main(String[] args) {
         int arr[] = {5, 7, 5, 7, 5, 7, 2, 7}; // {1,2,3,4,4,4}
-
 // print 5
         System.out.println("highest = "+solution(arr));
-
-
-
     }
 
     public static int solution(int[] arr) {
