@@ -56,16 +56,19 @@ public class ProcessingService {
         }
 
 
-        Map<String, String> tableIdsMap = Map.of("cupHaircut", "IA",
+       /* Map<String, String> tableIdsMap = Map.of("cupHaircut", "IA",
                 "acm", "PAM",
                 "acm_common", "PAM",
                 "acct_mgr", "PAM",
                 "acct_desc", "PAM",
-                "bogie", "BOGIE");
+                "bogie", "BOGIE",
+                "fundStation", "FND");
 
         Map<String, List<TableDef>> defs = Map.of("PAM",
                 List.of(new TableDef("acm", "abc"))
-                );
+                );*/
+
+        List.of("acm", "acm_common", "acct_mgr", "acct_desc");
 
 
         ProcessingService service = new ProcessingService();

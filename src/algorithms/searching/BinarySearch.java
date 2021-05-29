@@ -34,6 +34,7 @@ public class BinarySearch {
         }
 
         return -1;
+
     }
 
     public static int recursiveBinarySearch(int[] input, int value){

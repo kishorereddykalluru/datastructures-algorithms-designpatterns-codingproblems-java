@@ -8,7 +8,10 @@ public class SHA256Demo {
         String digest = DigestUtils.sha256Hex(originalString);
         System.out.println("759831720aa978c890b11f62ae49d2417f600f26aaa51b3291a8d21a4216582a ");
         System.out.println(digest);
+
 */
+        String str = "kishore";
+
         String blockChainNo = "1";
         String nonce = "60474";
         String data = "I am here";

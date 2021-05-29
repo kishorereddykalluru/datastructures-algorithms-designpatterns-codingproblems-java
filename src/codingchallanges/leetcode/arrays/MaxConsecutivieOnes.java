@@ -18,7 +18,7 @@ public class MaxConsecutivieOnes {
         for(int num : nums){
                 if(num == 1){ max += 1; }
                 else {
-                    maxContinuous = maxContinuous > max ? maxContinuous : max;
+                    maxContinuous = Math.max(maxContinuous, max);
                     if(max > nums.length/2)
                         return max;
                     max = 0;
