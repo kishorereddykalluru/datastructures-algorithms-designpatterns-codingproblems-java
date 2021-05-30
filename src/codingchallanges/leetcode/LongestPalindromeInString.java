@@ -7,8 +7,8 @@ public class LongestPalindromeInString {
 
     /**
      * find longest palindrome
-     * @param str
-     * @return
+     * @param str string to check for longest palindrome
+     * @return longest palindrome
      */
     public String longestPalindrome(String str) {
         if(str.length() < 2){
@@ -18,16 +18,10 @@ public class LongestPalindromeInString {
             expandRange(str, start, start);
             expandRange(str, start, start + 1);
         }
-        //didn't understand what is happening here
+
         return str.substring(resultIndex, resultIndex + resultLength);
     }
 
-    /**
-     * start from begin and expand range towards start and towards end and compare each element
-     * @param str
-     * @param begin
-     * @param end
-     */
     public void expandRange(String str, int begin, int end) {
         while (begin >= 0 && end < str.length() &&
                 str.charAt(begin) == str.charAt(end)) {
