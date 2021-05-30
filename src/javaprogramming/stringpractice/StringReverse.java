@@ -12,11 +12,11 @@ public class StringReverse {
          * 4. Using String Buffer
          * 5. By Swapping elements
          */
-        System.out.println("Reverse String Using Recursion : "+reverseStringUsingRecursion("reverse"));
+        System.out.println("Reverse String Using Recursion : "+reverseStringUsingRecursion("helloworld"));
         System.out.println("Reverse String : "+reverseString("reverse"));
-        System.out.println("Reverse String Using String Builder : "+reverseStringUsingStringBuilder("reverse"));
-        System.out.println("Reverse String Using String Buffer : "+reverseStringUsingStringBuffer("reverse"));
-        System.out.println("Reverse String Using Swapping elements : "+reverseStringUsingSwappingElements("reverse"));
+        System.out.println("Reverse String Using String Builder : "+reverseStringUsingStringBuilder("hello"));
+        System.out.println("Reverse String Using String Buffer : "+reverseStringUsingStringBuffer("world"));
+        System.out.println("Reverse String Using Swapping elements : "+reverseStringUsingSwappingElements("abcdefg"));
     }
 
     private static String reverseStringUsingSwappingElements(String reverse) {
@@ -35,17 +35,11 @@ public class StringReverse {
     }
 
     private static String reverseStringUsingStringBuffer(String reverse) {
-        StringBuffer stringBuffer = new StringBuffer(reverse);
-        stringBuffer.reverse();
-
-        return stringBuffer.toString();
+        return new StringBuffer().reverse().toString();
     }
 
     private static String reverseStringUsingStringBuilder(String reverse) {
-
-        StringBuilder stringBuilder = new StringBuilder(reverse);
-        stringBuilder.reverse();
-        return stringBuilder.toString();
+        return new StringBuilder().reverse().toString();
     }
 
     private static String reverseStringUsingRecursion(String reverse) {
@@ -62,12 +56,12 @@ public class StringReverse {
 
     public static String reverseString(String reverse){
 
-        String reverseStr = "";
+        StringBuilder stringBuilder = new StringBuilder();
 
         for(int i = reverse.length()-1; i >=0 ; i--){
-            reverseStr += reverse.charAt(i);
+            stringBuilder.append(reverse.charAt(i));
         }
 
-        return reverseStr;
+        return stringBuilder.toString();
     }
 }

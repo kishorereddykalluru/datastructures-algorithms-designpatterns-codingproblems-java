@@ -12,6 +12,8 @@ public class MaxConsecutivieOnes {
 
     public int findMaxConsecutiveOnes(int[] nums) {
 
+
+
         int maxContinuous = 0;
         int max = 0;
         
