@@ -23,6 +23,7 @@ public class FileRead {
         System.out.println(FileUtils.readFileToString(path.toFile(), Charset.defaultCharset()));
     }
 
+
     private static String readFileUsingFileInputStream(String inputFileName) throws IOException {
         return IOUtils.toString(new FileInputStream(inputFileName), Charset.defaultCharset());
     }
@@ -35,7 +36,7 @@ public class FileRead {
 
     public static String readFileWithBufferedReader(String inputFileName) throws IOException {
         File file = new File(inputFileName);
-        StringBuffer stringBuffer = new StringBuffer();
+        StringBuilder stringBuffer = new StringBuilder();
         BufferedReader br = new BufferedReader(new FileReader(file));
         
         String st;
