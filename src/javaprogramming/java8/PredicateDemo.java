@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class PredicateDemo {
     public static void main(String[] args) {
 
-        //1. predicate in filter
+      /*  //1. predicate in filter
         List<Integer> integers = List.of(1,2,3,4,5,6,7,8,9,10);
 
         List<Integer> collect = integers.stream().filter(x -> x > 5).collect(Collectors.toList());
@@ -30,6 +30,6 @@ public class PredicateDemo {
         System.out.println("collect2 = " + collect2);
         //4.
 
-        //5.
+        //5.*/
     }
 }

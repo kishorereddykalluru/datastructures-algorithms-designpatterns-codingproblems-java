@@ -7,7 +7,7 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
 
-        List<String> li = List.of("abc", "xyz", "lmn", "nop", "qrs", "abc", "mno", "qrs", "tuv");
+       /* List<String> li = List.of("abc", "xyz", "lmn", "nop", "qrs", "abc", "mno", "qrs", "tuv");
 
         List<String> li1 = List.of("abc", "xyz", "lmn", "acv", "bcv", "dcv", "zcv", "accv",
                 "aecv", "acfv", "acgv", "acav", "ascv", "acv");
@@ -16,6 +16,6 @@ public class RemoveDuplicates {
 
         System.out.println("collect.size() = " + collect.size() + " <-----> li1.size() = "+li1.size());
 
-        collect.forEach(System.out::println);
+        collect.forEach(System.out::println);*/
     }
 }

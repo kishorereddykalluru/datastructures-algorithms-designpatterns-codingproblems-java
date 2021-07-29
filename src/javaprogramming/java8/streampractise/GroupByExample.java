@@ -9,7 +9,7 @@ public class GroupByExample {
 
     public static void main(String[] args) {
 
-        List<String> fruits = List.of("apple", "apple", "banana", "orange", "pineapple", "banana", "grapes");
+       /* List<String> fruits = List.of("apple", "apple", "banana", "orange", "pineapple", "banana", "grapes");
 
         Employee e1 = new Employee(1, "ABC", "Accounting");
         Employee e2 = new Employee(2, "XYZ", "HR");
@@ -28,6 +28,6 @@ public class GroupByExample {
         employeeInDep.forEach((k, v) -> {
             System.out.print(k + " = ");
             System.out.println( v.stream().map(Employee::getName).collect(Collectors.joining(",")));
-        });
+        });*/
     }
 }

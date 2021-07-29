@@ -68,7 +68,7 @@ public class ProcessingService {
                 List.of(new TableDef("acm", "abc"))
                 );*/
 
-        List.of("acm", "acm_common", "acct_mgr", "acct_desc");
+        //List.of("acm", "acm_common", "acct_mgr", "acct_desc");
 
 
         ProcessingService service = new ProcessingService();

@@ -19,7 +19,7 @@ public class EpamElementWithHighesNumberofOccurance {
 
         int max = 0;
 
-        Map<Integer, Long> map = List.of(5, 7, 5, 7, 5, 7, 2, 7).stream()
+        /*Map<Integer, Long> map = List.of(5, 7, 5, 7, 5, 7, 2, 7).stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         Optional<Integer> integer = map.entrySet().stream().max(Map.Entry.comparingByValue()).map(Map.Entry::getKey);
@@ -38,13 +38,14 @@ public class EpamElementWithHighesNumberofOccurance {
                 intMap.put(arr[i], 1);
             }
         }
-
-        for(int a: intMap.keySet()){
+*/
+       /* for(int a: intMap.keySet()){
             if(intMap.get(a) > highest) {
                 highest = intMap.get(a);
                 high = a;
             }
         }
-        return high;
+        return high;*/
+        return max;
     }
 }

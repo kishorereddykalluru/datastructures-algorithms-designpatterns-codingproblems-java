@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class FindMaxInAList {
 
     public static void main(String[] args) {
-        List<Integer> list = List.of(2,4,5,3,4,6,9,7);
+        /*List<Integer> list = List.of(2,4,5,3,4,6,9,7);
         
         int max1 = list.stream().reduce(Integer::max).get();
         System.out.println("max1 = " + max1);
@@ -30,5 +30,5 @@ public class FindMaxInAList {
         List<Employee> collect = e11.stream().distinct().collect(Collectors.toList());
 
         collect.forEach(System.out::println);
-    }
+    */}
 }

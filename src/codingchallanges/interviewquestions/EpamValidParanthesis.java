@@ -20,9 +20,9 @@ public class EpamValidParanthesis {
 
     public static boolean solution(String input) {
 
-        Stack<Character> dataStack = new Stack<>();
+       /* Stack<Character> dataStack = new Stack<>();
 
-        Map<Character, Character> characterMap = Map.of('}', '{', ')', '(', ']', '[');
+        //Map<Character, Character> characterMap = Map.of('}', '{', ')', '(', ']', '[');
         for(int i = 0; i < input.length(); i++){
             if(input.charAt(i) == '{' || input.charAt(i) == '(' || input.charAt(i) == '['){
                 dataStack.push(input.charAt(i));
@@ -34,7 +34,7 @@ public class EpamValidParanthesis {
                 }
             }
 
-        }
+        }*/
 
     return true;
     }
