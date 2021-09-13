@@ -13,14 +13,10 @@ public class InputStreamDemo {
         int i;
 
         try {
-             in = new FileInputStream("E:\\KishWorkspace\\DataStructuresAndAlgorithms\\src\\dummy\\input.txt");
-
-            System.out.println("in = " + in);
-
+             in = new FileInputStream("E:\\development\\DataStructuresAndAlgorithms\\src\\dummy\\input.txt");
+              System.out.println("in = " + in);
              String s = IOUtils.toString(in, StandardCharsets.UTF_8);
-
             System.out.println("s = " + s);
-
         }  catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,7 +1,5 @@
 package algorithms.sorting;
 
-import java.rmi.dgc.VMID;
-
 public class MergeSort {
 
     public static void main(String[] args) {

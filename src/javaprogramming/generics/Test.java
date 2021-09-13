@@ -1,5 +1,7 @@
 package javaprogramming.generics;
 
+import java.io.Serializable;
+
 public class Test<T> {
 
     T obj;
