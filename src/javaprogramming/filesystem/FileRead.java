@@ -1,17 +1,8 @@
 package javaprogramming.filesystem;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.IOUtils;
-
-import java.io.*;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
 public class FileRead {
 
-    public static void main(String[] args) throws IOException {
+    /*public static void main(String[] args) throws IOException {
         String inputFileName = "E:\\KishWorkspace\\DataStructuresAndAlgorithms\\src\\javaprogramming\\filesystem\\files\\input.txt";
         System.out.println(readFileWithBufferedReader(inputFileName));
         System.out.println(readFileUsingFileUtils(inputFileName));
@@ -44,5 +35,5 @@ public class FileRead {
             stringBuffer.append(st).append("\n");
         }
         return stringBuffer.toString();
-    }
+    }*/
 }

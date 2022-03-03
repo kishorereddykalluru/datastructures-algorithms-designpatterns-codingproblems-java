@@ -1,24 +1,18 @@
 package dummy;
 
-import org.apache.commons.io.IOUtils;
 
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 public class InputStreamDemo {
 
-    public static void main(String[] args) {
-        InputStream in = null;
-        int i;
+    public static void main(String[] args) throws IOException {
+        Path path = Path.of("./src/dummy/input.txt");
+        String s = Files.readString(path);
 
-        try {
-             in = new FileInputStream("E:\\development\\DataStructuresAndAlgorithms\\src\\dummy\\input.txt");
-              System.out.println("in = " + in);
-             String s = IOUtils.toString(in, StandardCharsets.UTF_8);
-            System.out.println("s = " + s);
-        }  catch (IOException e) {
-            e.printStackTrace();
-        }
+        System.out.println(s);
+        Path newFilePath = Path.of("./src/dummy/input_new.txt");
+        Files.writeString(newFilePath, s);
     }
 }

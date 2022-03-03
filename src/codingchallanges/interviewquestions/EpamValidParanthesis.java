@@ -20,23 +20,22 @@ public class EpamValidParanthesis {
 
     public static boolean solution(String input) {
 
-       /* Stack<Character> dataStack = new Stack<>();
+        //if length of input is not even then it is not valid parentheses
+        if(input.length() % 2 != 0) return false;
 
-        //Map<Character, Character> characterMap = Map.of('}', '{', ')', '(', ']', '[');
-        for(int i = 0; i < input.length(); i++){
-            if(input.charAt(i) == '{' || input.charAt(i) == '(' || input.charAt(i) == '['){
-                dataStack.push(input.charAt(i));
+        Map<Character, Character> m = Map.of(')', '(', '}','{', ']', '[');
+
+        Stack<Character> s = new Stack<>();
+        for(char c : input.toCharArray()) {
+            if(c == '(' || c == '{' || c == ']') {
+                s.push(c);
+            } else if (!s.isEmpty() && s.peek() != m.get(c)) {
+                s.pop();
             } else {
-                Character pop = dataStack.pop();
-                if(!pop.equals(characterMap.get(input.charAt(i))))
-                {
-                    return false;
-                }
+                return false;
             }
-
-        }*/
-
-    return true;
+        }
+        return s.isEmpty();
     }
 }
 
