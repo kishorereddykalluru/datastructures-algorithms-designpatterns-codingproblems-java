@@ -1,4 +1,4 @@
-package codingchallanges.leetcode;
+package leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +16,7 @@ public class TwoSumsIndexProblem {
         for (int i = 0; i < arr.length; i++) {
             int delta = result - arr[i];
             if(valueIndexesMap.containsKey(delta)){
-                return new int[] {i, valueIndexesMap.get(delta)};
+                return new int[] {valueIndexesMap.get(delta), i};
             }
             valueIndexesMap.put(arr[i], i);
         }

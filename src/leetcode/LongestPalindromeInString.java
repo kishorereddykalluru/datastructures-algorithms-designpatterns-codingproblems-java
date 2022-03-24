@@ -1,4 +1,4 @@
-package codingchallanges.leetcode;
+package leetcode;
 
 public class LongestPalindromeInString {
     
