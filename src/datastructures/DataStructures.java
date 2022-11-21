@@ -11,5 +11,6 @@ public class DataStructures {
         System.out.println("|------DoubleLinkedList");
         System.out.println("|------CircularLinkedList");
         System.out.println("|--Stack");
+        System.out.println("|--Trees");
     }
 }
